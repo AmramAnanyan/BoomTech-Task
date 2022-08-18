@@ -1,0 +1,33 @@
+.page{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.add-number{
+    width: 242px;
+    height: 44px;
+    border-radius: 8px;
+}
+.triangle-area{
+    width: 540px;
+    height: 540px;
+    background: #F3F9FC;
+    border-radius: 16px;
+    color: #3A83B8;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reverse-btn{
+width: 143px;
+height: 52px;
+background: #3A83B8;
+border-radius: 8px;
+border: none;
+cursor: pointer;
+color: #F3F9FC;
+}
