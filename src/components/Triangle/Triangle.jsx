@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import triangle from '../../helpers/createTriangle';
+import diagonalTriangle from '../../helpers/reverseTriangle';
 import "./style.css";
 function Triangle() {
     const [value, setValue] = useState("");
@@ -10,7 +11,7 @@ function Triangle() {
     },[value,setValue])
   
     function reverseTriangle() {
-      setState(triangle(value).reverse())
+      setState(diagonalTriangle(value))
     }
     
     function handleInput(e) {

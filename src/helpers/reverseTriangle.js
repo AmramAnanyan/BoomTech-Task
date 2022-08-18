@@ -1,9 +1,9 @@
-function triangle(n) {
+function diagonalTriangle(n) {
     if (n) {
         let newArr = []; 
         for(let i=1;i<=n;i++){
                 for(let j=0;j<=n;j++){
-                            if (j<=i) {
+                            if (i<=j) {
                                 newArr.push(<span>&nbsp;&nbsp;&nbsp;&nbsp;</span>);
                                
                 }else{
@@ -19,6 +19,4 @@ function triangle(n) {
    
 };
 
-export default triangle
-
-
+export default diagonalTriangle;
